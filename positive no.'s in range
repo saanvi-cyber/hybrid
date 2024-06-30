@@ -1,0 +1,14 @@
+# Python program to print positive Numbers in a range
+ 
+# range of numbers
+range 1 = [11, -21, 0, 45, 66, -93]
+ 
+# iterating each number in range
+for num in range 1:
+ 
+    # checking condition
+    if num & gt
+    = 0:
+        print(num, end=& quot
+              & quot
+              )
