@@ -1,0 +1,12 @@
+image classification in datasets 
+train_data_dir = 'v_data/train'
+validation_data_dir = 'v_data/test'
+nb_train_samples =400
+nb_validation_samples = 100
+epochs = 10
+batch_size = 16
+to check the format of image 
+if K.image_data_format() == 'channels_first':
+    input_shape = (3, img_width, img_height)
+else:
+    input_shape = (img_width, img_height
